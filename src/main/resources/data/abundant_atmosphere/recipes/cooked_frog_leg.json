@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "abundant_atmosphere:frog_leg"
+  },
+  "result": "abundant_atmosphere:cooked_frog_leg"
+}

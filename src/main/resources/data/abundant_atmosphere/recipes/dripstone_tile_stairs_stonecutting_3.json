@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "abundant_atmosphere:dripstone_tiles"
+  },
+  "result": "abundant_atmosphere:dripstone_tile_stairs"
+}

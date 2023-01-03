@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mud",
+  "key": {
+    "#": {
+      "item": "minecraft:mud_brick_slab"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "item": "abundant_atmosphere:chiseled_mud_bricks"
+  }
+}

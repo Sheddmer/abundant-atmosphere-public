@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "abundant_atmosphere:basalt_bricks"
+  },
+  "result": "abundant_atmosphere:chiseled_basalt_bricks"
+}

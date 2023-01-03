@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "abundant_atmosphere:calcite_bricks"
+  },
+  "result": "abundant_atmosphere:calcite_brick_wall"
+}

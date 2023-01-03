@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "abundant_atmosphere:mud_pot"
+  },
+  "result": "abundant_atmosphere:carved_mud_pot"
+}

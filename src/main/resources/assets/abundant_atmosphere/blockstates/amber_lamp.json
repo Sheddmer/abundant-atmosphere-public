@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=north": { "model": "abundant_atmosphere:block/amber_lamp", "x": 90 },
+    "facing=east": { "model": "abundant_atmosphere:block/amber_lamp", "x": 90, "y": 90 },
+    "facing=south": { "model": "abundant_atmosphere:block/amber_lamp", "x": 270 },
+    "facing=west": { "model": "abundant_atmosphere:block/amber_lamp", "x": 90, "y": 270 },
+    "facing=up": { "model": "abundant_atmosphere:block/amber_lamp" },
+    "facing=down": { "model": "abundant_atmosphere:block/amber_lamp", "x": 180 }
+
+  }
+}

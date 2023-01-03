@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "abundant_atmosphere:mixed_bricks"
+  },
+  "result": "abundant_atmosphere:mixed_brick_slab"
+}

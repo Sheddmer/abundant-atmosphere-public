@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "abundant_atmosphere:calcite_bricks"
+  },
+  "result": "abundant_atmosphere:chiseled_calcite_bricks"
+}

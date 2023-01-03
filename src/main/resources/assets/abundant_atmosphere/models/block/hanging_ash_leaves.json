@@ -1,0 +1,59 @@
+{
+  "ambientocclusion": false,
+  "parent": "block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "leaves": "abundant_atmosphere:block/hanging_ash_leaves",
+    "particle":"abundant_atmosphere:block/hanging_ash_leaves"
+  },
+  "elements": [
+    {
+      "from": [3, 0, 0],
+      "to": [3, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "east": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "south": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "west": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "up": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "down": {"uv": [0, 0, 16, 16], "texture": "#leaves" }
+      }
+    },
+    {
+      "from": [13, 0, 0],
+      "to": [13, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "east": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "south": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "west": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "up": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "down": {"uv": [0, 0, 16, 16], "texture": "#leaves" }
+      }
+    },
+    {
+      "from": [0, 0, 3],
+      "to": [16, 16, 3],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "east": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "south": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "west": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "up": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "down": {"uv": [0, 0, 16, 16], "texture": "#leaves" }
+      }
+    },
+    {
+      "from": [0, 0, 13],
+      "to": [16, 16, 13],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "east": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "south": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "west": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "up": {"uv": [0, 0, 16, 16], "texture": "#leaves" },
+        "down": {"uv": [0, 0, 16, 16], "texture": "#leaves" }
+      }
+    }
+  ]
+}

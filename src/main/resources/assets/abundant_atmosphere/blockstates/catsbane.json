@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=north": { "model": "abundant_atmosphere:block/catsbane_wall" },
+    "facing=east": { "model": "abundant_atmosphere:block/catsbane_wall", "y": 90 },
+    "facing=south": { "model": "abundant_atmosphere:block/catsbane_wall", "y": 180 },
+    "facing=west": { "model": "abundant_atmosphere:block/catsbane_wall", "y": 270 },
+    "facing=up": { "model": "abundant_atmosphere:block/catsbane" },
+    "facing=down": { "model": "abundant_atmosphere:block/catsbane", "x": 180 }
+
+  }
+}

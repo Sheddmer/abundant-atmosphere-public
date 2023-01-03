@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "render_type": "minecraft:transparent",
+  "textures": {
+    "all": "abundant_atmosphere:block/amber_crystal"
+  }
+}

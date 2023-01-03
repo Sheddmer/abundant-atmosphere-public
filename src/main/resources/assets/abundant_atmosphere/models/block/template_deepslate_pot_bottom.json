@@ -1,0 +1,19 @@
+{
+	"credit": "Made by Sheddmer",
+	"textures": {
+		"particle": "#body"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 16, 15],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 16], "texture": "#body"},
+				"east": {"uv": [1, 0, 15, 16], "texture": "#body"},
+				"south": {"uv": [1, 0, 15, 16], "texture": "#body"},
+				"west": {"uv": [1, 0, 15, 16], "texture": "#body"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#bottom"}
+			}
+		}
+	]
+}

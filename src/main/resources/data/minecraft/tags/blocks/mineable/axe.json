@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "abundant_atmosphere:ash_log",
+    "abundant_atmosphere:stripped_ash_log",
+    "abundant_atmosphere:ash_wood",
+    "abundant_atmosphere:stripped_ash_wood",
+    "abundant_atmosphere:ash_planks",
+    "abundant_atmosphere:ash_stairs",
+    "abundant_atmosphere:ash_slab",
+    "abundant_atmosphere:ash_door",
+    "abundant_atmosphere:ash_trapdoor",
+    "abundant_atmosphere:ash_button",
+    "abundant_atmosphere:ash_pressure_plate",
+    "abundant_atmosphere:ash_fence",
+    "abundant_atmosphere:ash_fence_gate",
+    "abundant_atmosphere:mangrove_weave",
+    "abundant_atmosphere:mangrove_weave_mat",
+    "abundant_atmosphere:gourdrot_log",
+    "abundant_atmosphere:stripped_gourdrot_log",
+    "abundant_atmosphere:gourdrot_wood",
+    "abundant_atmosphere:stripped_gourdrot_wood",
+    "abundant_atmosphere:gourdrot_planks",
+    "abundant_atmosphere:gourdrot_stairs",
+    "abundant_atmosphere:gourdrot_slab",
+    "abundant_atmosphere:gourdrot_door",
+    "abundant_atmosphere:gourdrot_trapdoor",
+    "abundant_atmosphere:gourdrot_button",
+    "abundant_atmosphere:gourdrot_pressure_plate",
+    "abundant_atmosphere:gourdrot_fence",
+    "abundant_atmosphere:gourdrot_fence_gate"
+  ]
+}

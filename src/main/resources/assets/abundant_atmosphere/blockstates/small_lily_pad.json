@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "abundant_atmosphere:block/small_lily_pad"
+      },
+      {
+        "model": "abundant_atmosphere:block/small_lily_pad",
+        "y": 90
+      },
+      {
+        "model": "abundant_atmosphere:block/small_lily_pad",
+        "y": 180
+      },
+      {
+        "model": "abundant_atmosphere:block/small_lily_pad",
+        "y": 270
+      }
+    ]
+  }
+}

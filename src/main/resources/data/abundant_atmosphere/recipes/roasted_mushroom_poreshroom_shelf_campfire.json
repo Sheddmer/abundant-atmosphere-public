@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "abundant_atmosphere:poreshroom_shelf"
+  },
+  "result": "abundant_atmosphere:roasted_mushrooms"
+}

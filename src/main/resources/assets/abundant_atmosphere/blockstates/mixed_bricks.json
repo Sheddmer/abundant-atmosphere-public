@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "abundant_atmosphere:block/mixed_bricks/1"
+      },
+      {
+        "model": "abundant_atmosphere:block/mixed_bricks/2"
+      }
+      ]
+    }
+}

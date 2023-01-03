@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "abundant_atmosphere:ash_leaves",
+    "abundant_atmosphere:hanging_ash_leaves",
+    "abundant_atmosphere:gourdrot_leaves",
+    "abundant_atmosphere:hanging_mangrove_leaves"
+  ]
+}

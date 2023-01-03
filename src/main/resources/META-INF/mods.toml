@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="All rights reserved"
+[[mods]]
+modId="abundant_atmosphere"
+version="1.19.2-1.2.0"
+displayName="Abundant Atmosphere"
+logoFile= "logo.png"
+credits="Sheddmer, Probleyes, Umpaz"
+authors="Sheddmer"
+description='''
+This mod is a bite sized experience that aims to enhance some features about exploration.
+'''
+[[dependencies.abundant_atmosphere]]
+modId="forge"
+mandatory=true
+versionRange="[39,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.abundant_atmosphere]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19,1.20)"
+ordering="NONE"
+side="BOTH"

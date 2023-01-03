@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "amber",
+  "key": {
+    "#": {
+      "item": "abundant_atmosphere:amber_block"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "abundant_atmosphere:amber_bricks"
+  }
+}

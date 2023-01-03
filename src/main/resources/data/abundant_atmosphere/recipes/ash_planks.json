@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "abundant_atmosphere:ash_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "abundant_atmosphere:ash_planks"
+  }
+}

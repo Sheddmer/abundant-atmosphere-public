@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "abundant_atmosphere:block/tall_ancient_pot_bottom"
+    },
+    "half=upper": {
+      "model": "abundant_atmosphere:block/tall_ancient_pot_top"
+    }
+  }
+}

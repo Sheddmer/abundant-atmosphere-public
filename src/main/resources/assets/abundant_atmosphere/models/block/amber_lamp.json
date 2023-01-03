@@ -1,0 +1,33 @@
+{
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "abundant_atmosphere:block/amber_lamp",
+		"particle": "abundant_atmosphere:item/amber_lamp"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 3, 13],
+			"faces": {
+				"north": {"uv": [0, 5, 5, 6.5], "texture": "#0"},
+				"east": {"uv": [0, 5, 5, 6.5], "texture": "#0"},
+				"south": {"uv": [0, 5, 5, 6.5], "texture": "#0"},
+				"west": {"uv": [0, 5, 5, 6.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 5, 5], "texture": "#0"},
+				"down": {"uv": [0, 6.5, 5, 11.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [4, 3, 4],
+			"to": [12, 11, 12],
+			"shade": false,
+			"faces": {
+				"north": {"uv": [5, 4, 9, 8], "texture": "#0"},
+				"east": {"uv": [5, 4, 9, 8], "texture": "#0"},
+				"south": {"uv": [5, 4, 9, 8], "texture": "#0"},
+				"west": {"uv": [5, 4, 9, 8], "texture": "#0"},
+				"up": {"uv": [5, 0, 9, 4], "texture": "#0"}
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "abundant_atmosphere:block/template_deepslate_pot",
+	"textures": {
+		"body": "abundant_atmosphere:block/deepslate_pot_ancient_tall_top",
+		"lid": "abundant_atmosphere:block/deepslate_pot_top_ancient",
+		"bottom": "abundant_atmosphere:block/deepslate_pot_bottom_ancient"
+	}
+}

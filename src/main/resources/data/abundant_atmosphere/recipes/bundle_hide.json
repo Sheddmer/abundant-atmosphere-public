@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "H": {
+      "tag": "abundant_atmosphere:hides"
+    }
+  },
+  "pattern": [
+    "SHS",
+    "H H",
+    "HHH"
+  ],
+  "result": {
+    "item": "minecraft:bundle"
+  }
+}

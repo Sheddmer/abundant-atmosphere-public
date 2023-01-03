@@ -1,0 +1,17 @@
+{
+    "ambientocclusion": false,
+    "render_type": "minecraft:cutout",
+    "textures": {
+        "particle": "abundant_atmosphere:block/moss_clump",
+        "moss_clump": "abundant_atmosphere:block/moss_clump"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0.1 ],
+            "to": [ 16, 16, 0.1 ],
+            "faces": {
+                "north": { "uv": [ 16, 0, 0, 16 ], "texture": "#moss_clump" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#moss_clump" }
+            }
+        }
+    ]
+}

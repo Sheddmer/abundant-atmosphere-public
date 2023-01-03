@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:red_mushroom"
+  },
+  "result": "abundant_atmosphere:roasted_mushrooms"
+}

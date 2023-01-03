@@ -1,0 +1,18 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"0": "abundant_atmosphere:block/small_lily_pad",
+		"particle": "abundant_atmosphere:block/small_lily_pad"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [16, 0, 0, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

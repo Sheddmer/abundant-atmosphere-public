@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "calcite",
+  "key": {
+    "#": {
+      "item": "minecraft:calcite"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "abundant_atmosphere:polished_calcite"
+  }
+}

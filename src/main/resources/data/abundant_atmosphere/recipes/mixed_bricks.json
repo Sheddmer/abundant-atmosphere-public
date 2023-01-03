@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "L": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "pattern": [
+    "BL",
+    "LB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "abundant_atmosphere:mixed_bricks"
+  }
+}

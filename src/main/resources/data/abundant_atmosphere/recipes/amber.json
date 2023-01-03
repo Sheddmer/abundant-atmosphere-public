@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "amber",
+  "ingredients": [
+    {
+      "item": "abundant_atmosphere:amber_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "abundant_atmosphere:amber"
+  }
+}

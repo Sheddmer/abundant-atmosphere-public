@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "pots",
+  "key": {
+    "#": {
+      "item": "abundant_atmosphere:deepslate_pot"
+    }
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "abundant_atmosphere:tall_deepslate_pot"
+  }
+}

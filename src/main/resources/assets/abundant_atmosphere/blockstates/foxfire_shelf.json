@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,unlit=true": { "model": "abundant_atmosphere:block/foxfire_shelf" },
+    "facing=east,unlit=true": { "model": "abundant_atmosphere:block/foxfire_shelf", "y": 90 },
+    "facing=south,unlit=true": { "model": "abundant_atmosphere:block/foxfire_shelf", "y": 180 },
+    "facing=west,unlit=true": { "model": "abundant_atmosphere:block/foxfire_shelf", "y": 270 },
+
+    "facing=north,unlit=false": { "model": "abundant_atmosphere:block/foxfire_shelf_lit" },
+    "facing=east,unlit=false": { "model": "abundant_atmosphere:block/foxfire_shelf_lit", "y": 90 },
+    "facing=south,unlit=false": { "model": "abundant_atmosphere:block/foxfire_shelf_lit", "y": 180 },
+    "facing=west,unlit=false": { "model": "abundant_atmosphere:block/foxfire_shelf_lit", "y": 270 }
+  }
+}

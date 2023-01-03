@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "abundant_atmosphere"
+    }
+  ],
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "abundant_atmosphere:stripped_gourdrot_log"
+    }
+  ],
+  "results": [
+    {
+      "item": "abundant_atmosphere:gourdrot_planks",
+      "count": 6
+    }
+  ],
+  "processingTime": 50
+}

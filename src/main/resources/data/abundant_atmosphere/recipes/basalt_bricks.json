@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "basalt",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_basalt"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "abundant_atmosphere:basalt_bricks"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "basalt",
+  "key": {
+    "#": {
+      "item": "minecraft:mangrove_roots"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "abundant_atmosphere:mangrove_weave"
+  }
+}
