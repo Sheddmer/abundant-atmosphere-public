@@ -29,8 +29,8 @@ public class AbundantAtmosphere {
         AABiomes.BIOMES.register(Bus);
         AAFeatures.FEATURES.register(Bus);
         AAItems.ITEMS.register(Bus);
+        AAEntityTypes.ENTITY_TYPES.register(Bus);
 
-        eventBus.register(this);
         eventBus.register(new MiscEvents());
         Bus.addListener(AbundantAtmosphere::registerBlockColors);
         Bus.addListener(AbundantAtmosphere::registerItemColors);
