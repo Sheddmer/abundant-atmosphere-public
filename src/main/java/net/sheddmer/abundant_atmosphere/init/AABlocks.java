@@ -14,7 +14,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sheddmer.abundant_atmosphere.AbundantAtmosphere;
 import net.sheddmer.abundant_atmosphere.blocks.*;
-import net.sheddmer.abundant_atmosphere.blocks.blockentities.AASignBlockEntity;
 import net.sheddmer.abundant_atmosphere.world.gen.features.generator.AshTreeGenerator;
 import net.sheddmer.abundant_atmosphere.world.gen.features.generator.GourdrotTreeGenerator;
 
