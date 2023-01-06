@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/ash_sign"
+      "model": "abundant_atmosphere:block/ash_sign"
     }
   }
 }

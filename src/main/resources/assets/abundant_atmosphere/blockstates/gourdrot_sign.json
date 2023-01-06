@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "minecraft:block/gourdrot_sign"
+      "model": "abundant_atmosphere:block/gourdrot_sign"
     }
   }
 }

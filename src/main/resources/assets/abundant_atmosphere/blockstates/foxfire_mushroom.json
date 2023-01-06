@@ -1,7 +1,8 @@
 {
   "variants": {
     "": {
-      "model": "abundant_atmosphere:block/foxfire_mushroom"
+      "unlit=true": "abundant_atmosphere:block/foxfire_mushroom",
+      "unlit=false": "abundant_atmosphere:block/foxfire_mushroom_lit"
     }
   }
 }

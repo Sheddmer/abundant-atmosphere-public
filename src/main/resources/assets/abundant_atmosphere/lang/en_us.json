@@ -4,6 +4,7 @@
   "item.abundant_atmosphere.hide": "Hide",
   "item.abundant_atmosphere.amber": "Amber",
   "item.abundant_atmosphere.ancient_amber": "Ancient Amber",
+  "item.abundant_atmosphere.roasted_mushrooms": "Roasted Mushrooms",
 
   "block.abundant_atmosphere.mossy_stone": "Mossy Stone",
   "block.abundant_atmosphere.mossy_deepslate": "Mossy Deepslate",
@@ -51,6 +52,7 @@
   "block.abundant_atmosphere.catsbane": "Catsbane",
   "block.abundant_atmosphere.mud_pot": "Mud Pot",
   "block.abundant_atmosphere.carved_mud_pot": "Carved Mud Pot",
+  "block.abundant_atmosphere.mud_lantern": "Mud Lantern",
   "block.abundant_atmosphere.chiseled_mud_bricks": "Chiseled Mud Bricks",
   "block.abundant_atmosphere.hanging_mangrove_leaves": "Hanging Mangrove Leaves",
 
@@ -70,7 +72,7 @@
   "block.abundant_atmosphere.ash_leaves": "Ash Leaves",
   "block.abundant_atmosphere.hanging_ash_leaves": "Hanging Ash Leaves",
   "block.abundant_atmosphere.ash_sapling": "Ash Sapling",
-  "item.abundant_atmosphere.ash_sign": "Ash Sign",
+  "block.abundant_atmosphere.ash_sign": "Ash Sign",
   "item.abundant_atmosphere.ash_boat": "Ash Boat",
   "item.abundant_atmosphere.ash_chest_boat": "Ash Chest Boat",
 
@@ -89,7 +91,7 @@
   "block.abundant_atmosphere.gourdrot_pressure_plate": "Gourdrot Pressure Plate",
   "block.abundant_atmosphere.gourdrot_leaves": "Gourdrot Leaves",
   "block.abundant_atmosphere.gourdrot_sapling": "Gourdrot Sapling",
-  "item.abundant_atmosphere.gourdrot_sign": "Gourdrot Sign",
+  "block.abundant_atmosphere.gourdrot_sign": "Gourdrot Sign",
   "item.abundant_atmosphere.gourdrot_boat": "Gourdrot Boat",
   "item.abundant_atmosphere.gourdrot_chest_boat": "Gourdrot Chest Boat",
 

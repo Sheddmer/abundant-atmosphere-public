@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "abundant_atmosphere:block/mud_lantern"
+    },
+    "hanging=true": {
+      "model": "abundant_atmosphere:block/hanging_mud_lantern"
+    }
+  }
+}

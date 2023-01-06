@@ -1,0 +1,55 @@
+{
+	"textures": {
+		"1": "abundant_atmosphere:block/mud_pot_body_bottom",
+		"2": "abundant_atmosphere:block/mud_pot_body_top",
+		"3": "abundant_atmosphere:block/mud_pot_top",
+		"particle": "#body"
+	},
+	"elements": [
+		{
+			"from": [2, 2, 2],
+			"to": [14, 11, 14],
+			"faces": {
+				"north": {"uv": [2, 5, 14, 14], "texture": "#body"},
+				"east": {"uv": [2, 5, 14, 14], "texture": "#body"},
+				"south": {"uv": [2, 5, 14, 14], "texture": "#body"},
+				"west": {"uv": [2, 5, 14, 14], "texture": "#body"},
+				"up": {"uv": [2, 2, 14, 14], "texture": "#2"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#1"}
+			}
+		},
+		{
+			"from": [3, 0, 3],
+			"to": [13, 2, 13],
+			"faces": {
+				"north": {"uv": [3, 14, 13, 16], "texture": "#body"},
+				"east": {"uv": [3, 14, 13, 16], "texture": "#body"},
+				"south": {"uv": [3, 14, 13, 16], "texture": "#body"},
+				"west": {"uv": [3, 14, 13, 16], "texture": "#body"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 11, 4],
+			"to": [12, 12, 12],
+			"faces": {
+				"north": {"uv": [4, 4, 12, 5], "texture": "#body"},
+				"east": {"uv": [4, 4, 12, 5], "texture": "#body"},
+				"south": {"uv": [4, 4, 12, 5], "texture": "#body"},
+				"west": {"uv": [4, 4, 12, 5], "texture": "#body"}
+			}
+		},
+		{
+			"from": [3, 12, 3],
+			"to": [13, 14, 13],
+			"faces": {
+				"north": {"uv": [3, 2, 13, 4], "texture": "#body"},
+				"east": {"uv": [3, 2, 13, 4], "texture": "#body"},
+				"south": {"uv": [3, 2, 13, 4], "texture": "#body"},
+				"west": {"uv": [3, 2, 13, 4], "texture": "#body"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#3"},
+				"down": {"uv": [3, 3, 13, 12], "texture": "#1"}
+			}
+		}
+	]
+}
