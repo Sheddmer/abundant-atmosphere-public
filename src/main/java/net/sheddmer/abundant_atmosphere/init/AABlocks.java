@@ -14,6 +14,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sheddmer.abundant_atmosphere.AbundantAtmosphere;
 import net.sheddmer.abundant_atmosphere.blocks.*;
+import net.sheddmer.abundant_atmosphere.world.gen.features.HugeFoxfireFeature;
+import net.sheddmer.abundant_atmosphere.world.gen.features.HugePoreshroomFeature;
 import net.sheddmer.abundant_atmosphere.world.gen.features.generator.AshTreeGenerator;
 import net.sheddmer.abundant_atmosphere.world.gen.features.generator.GourdrotTreeGenerator;
 
@@ -46,7 +48,7 @@ public class AABlocks {
     public static final RegistryObject<Block> ASH_LEAVES = registerBlock("ash_leaves", () -> new LeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_ORANGE).noOcclusion().strength(0.2F, 0.2F).sound(SoundType.AZALEA_LEAVES)), CreativeModeTab.TAB_DECORATIONS);
     public static final RegistryObject<Block> HANGING_ASH_LEAVES = registerBlock("hanging_ash_leaves", () -> new HangingLeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_ORANGE).strength(0.2F, 0.2F).sound(SoundType.AZALEA_LEAVES)), CreativeModeTab.TAB_DECORATIONS);
     public static final RegistryObject<Block> ASH_SAPLING = registerBlock("ash_sapling", () -> new SaplingBlock(new AshTreeGenerator(), BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_ORANGE).instabreak().noCollission().sound(SoundType.GRASS)), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> POTTED_ASH_SAPLING = registerBlockWithoutBlockItem("potted_ash_sapling", () -> new FlowerPotBlock(null, AABlocks.ASH_SAPLING, BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> POTTED_ASH_SAPLING = registerBlockWithoutBlockItem("potted_ash_sapling", () -> new FlowerPotBlock(ASH_SAPLING.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
 
     public static final RegistryObject<Block> GOURDROT_LOG = registerBlock("gourdrot_log", () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(2.0F, 2.0F).sound(SoundType.WOOD)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> GOURDROT_WOOD = registerBlock("gourdrot_wood", () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(2.0F, 2.0F).sound(SoundType.WOOD)), CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -65,7 +67,7 @@ public class AABlocks {
     public static final RegistryObject<Block> GOURDROT_WALL_SIGN = BLOCKS.register("gourdrot_wall_sign", () -> new AAWallSignBlock(BlockBehaviour.Properties.of(Material.WOOD, GOURDROT_LOG.get().defaultMaterialColor()).noCollission().strength(1.0F).sound(SoundType.WOOD).dropsLike(GOURDROT_SIGN.get()), AASignTypes.GOURDROT));
     public static final RegistryObject<Block> GOURDROT_LEAVES = registerBlock("gourdrot_leaves", () -> new LeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_ORANGE).noOcclusion().strength(0.2F, 0.2F).sound(SoundType.AZALEA_LEAVES)), CreativeModeTab.TAB_DECORATIONS);
     public static final RegistryObject<Block> GOURDROT_SAPLING = registerBlock("gourdrot_sapling", () -> new SaplingBlock(new GourdrotTreeGenerator(), BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_ORANGE).instabreak().noCollission().sound(SoundType.GRASS)), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> POTTED_GOURDROT_SAPLING = registerBlockWithoutBlockItem("potted_gourdrot_sapling", () -> new FlowerPotBlock(null, AABlocks.GOURDROT_SAPLING, BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> POTTED_GOURDROT_SAPLING = registerBlockWithoutBlockItem("potted_gourdrot_sapling", () -> new FlowerPotBlock(GOURDROT_SAPLING.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
     public static final RegistryObject<Block> HANGING_MANGROVE_LEAVES = registerBlock("hanging_mangrove_leaves", () -> new HangingLeavesBlock(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_GREEN).strength(0.2F, 0.2F).sound(SoundType.GRASS)), CreativeModeTab.TAB_DECORATIONS);
 
     // Deco blocks
@@ -102,6 +104,7 @@ public class AABlocks {
     public static final RegistryObject<Block> CHISELED_DEEPSLATE_TILES = registerBlock("chiseled_deepslate_tiles", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.DEEPSLATE_TILES)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> MANGROVE_WEAVE = registerBlock("mangrove_weave", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(0.7F, 0.7F).sound(SoundType.MANGROVE_ROOTS)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> MUD_LANTERN = registerBlock("mud_lantern", () -> new MudLanternBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_BROWN).requiresCorrectToolForDrops().strength(1.0F, 3.0F).sound(SoundType.MUD_BRICKS).lightLevel(state -> 10)), CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> CAVE_SOIL = registerBlock("cave_soil", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.TERRACOTTA_GRAY).strength(0.5F, 0.5F).sound(SoundType.MUD)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     // Pot blocks
     public static final RegistryObject<Block> ANCIENT_POT = registerBlock("ancient_pot", () -> new DeepslatePotBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).requiresCorrectToolForDrops().strength(3.5F, 8.0F).sound(SoundType.DEEPSLATE)), CreativeModeTab.TAB_SEARCH);
@@ -113,15 +116,19 @@ public class AABlocks {
 
     // Nature deco blocks
     public static final RegistryObject<Block> PORESHROOM_SHELF = registerBlock("poreshroom_shelf", () -> new PoreshroomShelfBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_ORANGE).instabreak().noCollission().sound(SoundType.FUNGUS)), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> PORESHROOM = registerBlock("poreshroom", () -> new PoreshroomBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_MAGENTA).instabreak().noCollission().sound(SoundType.FUNGUS), () -> {return TreeFeatures.HUGE_BROWN_MUSHROOM;}), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> POTTED_PORESHROOM = registerBlockWithoutBlockItem("potted_poreshroom", () -> new FlowerPotBlock(null, AABlocks.PORESHROOM, BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().sound(SoundType.FUNGUS)));
+    public static final RegistryObject<Block> PORESHROOM = registerBlock("poreshroom", () -> new PoreshroomBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_MAGENTA).instabreak().noCollission().sound(SoundType.FUNGUS), () -> {return HugePoreshroomFeature.HUGE_PORESHROOM;}), CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> POTTED_PORESHROOM = registerBlockWithoutBlockItem("potted_poreshroom", () -> new FlowerPotBlock(PORESHROOM.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    public static final RegistryObject<Block> PORESHROOM_BLOCK = registerBlock("poreshroom_block", () -> new HugeMushroomBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_ORANGE).strength(0.2F, 0.2F).sound(SoundType.WOOD)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> FOXFIRE_SHELF = registerBlock("foxfire_shelf", () -> new FoxfireShelfBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_MAGENTA).instabreak().noCollission().lightLevel((state) -> state.getValue(FoxfireShelfBlock.UNLIT) ? 0 : 4).sound(SoundType.FUNGUS)), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> FOXFIRE_MUSHROOM = registerBlock("foxfire_mushroom", () -> new FoxfireMushroomBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_MAGENTA).instabreak().noCollission().lightLevel((state) -> state.getValue(FoxfireShelfBlock.UNLIT) ? 0 : 5).sound(SoundType.FUNGUS), () -> {return TreeFeatures.HUGE_BROWN_MUSHROOM;}), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> POTTED_FOXFIRE = registerBlockWithoutBlockItem("potted_foxfire", () -> new FlowerPotBlock(null, AABlocks.FOXFIRE_MUSHROOM, BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().sound(SoundType.FUNGUS)));
+    public static final RegistryObject<Block> FOXFIRE_MUSHROOM = registerBlock("foxfire_mushroom", () -> new FoxfireMushroomBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_MAGENTA).instabreak().noCollission().lightLevel((state) -> state.getValue(FoxfireShelfBlock.UNLIT) ? 0 : 5).sound(SoundType.FUNGUS), () -> {return HugeFoxfireFeature.HUGE_FOXFIRE_MUSHROOM;}), CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> POTTED_FOXFIRE = registerBlockWithoutBlockItem("potted_foxfire", () -> new FlowerPotBlock(FOXFIRE_MUSHROOM.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
+    public static final RegistryObject<Block> FOXFIRE_BLOCK = registerBlock("foxfire_block", () -> new HugeMushroomBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_MAGENTA).strength(0.2F, 0.2F).sound(SoundType.WOOD)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> CATSBANE = registerBlock("catsbane", () -> new CatsbaneBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_BROWN).instabreak().noCollission().sound(SoundType.FUNGUS)), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> POTTED_CATSBANE = registerBlockWithoutBlockItem("potted_catsbane", () -> new FlowerPotBlock(null, AABlocks.CATSBANE, BlockBehaviour.Properties.of(Material.PLANT).noOcclusion().sound(SoundType.FUNGUS)));
+    public static final RegistryObject<Block> POTTED_CATSBANE = registerBlockWithoutBlockItem("potted_catsbane", () -> new FlowerPotBlock(CATSBANE.get(), BlockBehaviour.Properties.of(Material.DECORATION).instabreak().noOcclusion()));
     public static final RegistryObject<Block> CURVED_MANGROVE_ROOTS = registerBlock("curved_mangrove_roots", () -> new CurvedRootsBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).instabreak().noCollission().sound(SoundType.MANGROVE_ROOTS)), CreativeModeTab.TAB_DECORATIONS);
     public static final RegistryObject<Block> MOSS_CLUMP = registerBlock("moss_clump", () -> new GlowLichenBlock(BlockBehaviour.Properties.of(Material.MOSS, MaterialColor.GRASS).instabreak().noCollission().sound(SoundType.MOSS)), CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> CAVE_SPROUTS = registerBlock("cave_sprouts", () -> new TallGrassBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_BROWN).instabreak().noCollission().sound(SoundType.GRASS)), CreativeModeTab.TAB_DECORATIONS);
+
 
     // Trophy blocks
     public static final RegistryObject<Block> CENTERPIECE_STATUE = registerBlock("centerpiece_statue", () -> new CenterPieceBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).requiresCorrectToolForDrops().strength(4.0F, 6.0F).sound(SoundType.DEEPSLATE)), CreativeModeTab.TAB_DECORATIONS);

@@ -28,6 +28,8 @@
     "abundant_atmosphere:gourdrot_button",
     "abundant_atmosphere:gourdrot_pressure_plate",
     "abundant_atmosphere:gourdrot_fence",
-    "abundant_atmosphere:gourdrot_fence_gate"
+    "abundant_atmosphere:gourdrot_fence_gate",
+    "abundant_atmosphere:poreshroom_block",
+    "abundant_atmosphere:foxfire_block"
   ]
 }

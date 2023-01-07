@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:mycelium",
+    "minecraft:podzol",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:moss_block",
+    "#minecraft:logs_that_burn",
+    "#abundant_atmosphere:ash_logs",
+    "#abundant_atmosphere:gourdrot_logs",
+    "abundant_atmosphere:cave_soil"
+  ]
+}

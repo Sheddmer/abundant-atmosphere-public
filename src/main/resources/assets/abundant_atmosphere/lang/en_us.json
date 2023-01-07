@@ -55,6 +55,10 @@
   "block.abundant_atmosphere.mud_lantern": "Mud Lantern",
   "block.abundant_atmosphere.chiseled_mud_bricks": "Chiseled Mud Bricks",
   "block.abundant_atmosphere.hanging_mangrove_leaves": "Hanging Mangrove Leaves",
+  "block.abundant_atmosphere.cave_soil": "Cave Soil",
+  "block.abundant_atmosphere.cave_sprouts": "Cave Sprouts",
+  "block.abundant_atmosphere.poreshroom_block": "Poreshroom Block",
+  "block.abundant_atmosphere.foxfire_block": "Foxfire Block",
 
   "block.abundant_atmosphere.ash_log": "Ash Log",
   "block.abundant_atmosphere.stripped_ash_log": "Stripped Ash Log",

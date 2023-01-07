@@ -58,6 +58,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "abundant_atmosphere:gourdrot_sapling",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,

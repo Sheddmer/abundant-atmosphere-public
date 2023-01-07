@@ -22,7 +22,7 @@ import java.util.List;
 public class GourdrotTreeFeature {
     public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> GOURDROT_TREE = FeatureUtils.register("gourdrot", Feature.TREE,
             (new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(AABlocks.GOURDROT_LOG.get()),
-                    new ForkingTrunkPlacer(5, 4, 4), BlockStateProvider.simple(AABlocks.GOURDROT_LEAVES.get()),
+                    new ForkingTrunkPlacer(2, 2, 2), BlockStateProvider.simple(AABlocks.GOURDROT_LEAVES.get()),
                     new RandomSpreadFoliagePlacer(ConstantInt.of(3), ConstantInt.of(0), ConstantInt.of(2), 60),
                     new TwoLayersFeatureSize(2, 2, 4))).decorators(List.of(new PoreshroomDecorator(0.5F)
             )).ignoreVines().build());
