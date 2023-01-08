@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "abundant_atmosphere:block/tall_cave_sprouts_bottom"
+    },
+    "half=upper": {
+      "model": "abundant_atmosphere:block/tall_cave_sprouts_top"
+    }
+  }
+}

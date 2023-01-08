@@ -67,5 +67,4 @@ public class AAVanillaIntegration {
         ComposterBlock.COMPOSTABLES.put(AABlocks.CURVED_MANGROVE_ROOTS.get(), 0.65F);
 
     }
-
 }

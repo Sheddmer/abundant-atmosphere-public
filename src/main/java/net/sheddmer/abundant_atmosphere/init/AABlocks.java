@@ -104,7 +104,7 @@ public class AABlocks {
     public static final RegistryObject<Block> CHISELED_DEEPSLATE_TILES = registerBlock("chiseled_deepslate_tiles", () -> new Block(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).requiresCorrectToolForDrops().strength(3.0F, 6.0F).sound(SoundType.DEEPSLATE_TILES)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> MANGROVE_WEAVE = registerBlock("mangrove_weave", () -> new Block(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(0.7F, 0.7F).sound(SoundType.MANGROVE_ROOTS)), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> MUD_LANTERN = registerBlock("mud_lantern", () -> new MudLanternBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_BROWN).requiresCorrectToolForDrops().strength(1.0F, 3.0F).sound(SoundType.MUD_BRICKS).lightLevel(state -> 10)), CreativeModeTab.TAB_DECORATIONS);
-    public static final RegistryObject<Block> CAVE_SOIL = registerBlock("cave_soil", () -> new Block(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.TERRACOTTA_GRAY).strength(0.5F, 0.5F).sound(SoundType.MUD)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CAVE_SOIL = registerBlock("cave_soil", () -> new CaveSoilBlock(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.TERRACOTTA_GRAY).strength(0.5F, 0.5F).sound(SoundType.MUD)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     // Pot blocks
     public static final RegistryObject<Block> ANCIENT_POT = registerBlock("ancient_pot", () -> new DeepslatePotBlock(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.DEEPSLATE).requiresCorrectToolForDrops().strength(3.5F, 8.0F).sound(SoundType.DEEPSLATE)), CreativeModeTab.TAB_SEARCH);
@@ -128,6 +128,7 @@ public class AABlocks {
     public static final RegistryObject<Block> CURVED_MANGROVE_ROOTS = registerBlock("curved_mangrove_roots", () -> new CurvedRootsBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.WOOD).instabreak().noCollission().sound(SoundType.MANGROVE_ROOTS)), CreativeModeTab.TAB_DECORATIONS);
     public static final RegistryObject<Block> MOSS_CLUMP = registerBlock("moss_clump", () -> new GlowLichenBlock(BlockBehaviour.Properties.of(Material.MOSS, MaterialColor.GRASS).instabreak().noCollission().sound(SoundType.MOSS)), CreativeModeTab.TAB_DECORATIONS);
     public static final RegistryObject<Block> CAVE_SPROUTS = registerBlock("cave_sprouts", () -> new TallGrassBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_BROWN).instabreak().noCollission().sound(SoundType.GRASS)), CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> TALL_CAVE_SPROUTS = registerBlock("tall_cave_sprouts", () -> new DoublePlantBlock(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.TERRACOTTA_BROWN).instabreak().noCollission().sound(SoundType.GRASS)), CreativeModeTab.TAB_DECORATIONS);
 
 
     // Trophy blocks

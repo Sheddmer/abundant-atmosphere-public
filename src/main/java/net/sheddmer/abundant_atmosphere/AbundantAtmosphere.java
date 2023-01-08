@@ -2,7 +2,6 @@ package net.sheddmer.abundant_atmosphere;
 
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.world.level.FoliageColor;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -35,6 +34,7 @@ public class AbundantAtmosphere {
         eventBus.register(new MiscEvents());
         Bus.addListener(AbundantAtmosphere::registerBlockColors);
         Bus.addListener(AbundantAtmosphere::registerItemColors);
+
 
     }
 

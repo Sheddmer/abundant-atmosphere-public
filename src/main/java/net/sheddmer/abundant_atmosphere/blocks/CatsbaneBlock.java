@@ -28,8 +28,8 @@ public class CatsbaneBlock extends HorizontalDirectionalBlock {
 
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         switch ((Direction)pState.getValue(FACING)) {
-            case UP:
-                return SHAPE_UP;
+            case EAST:
+                return SHAPE_WEST;
             case DOWN:
                 return SHAPE_DOWN;
             case NORTH:
@@ -38,9 +38,9 @@ public class CatsbaneBlock extends HorizontalDirectionalBlock {
                 return SHAPE_EAST;
             case WEST:
                 return SHAPE_SOUTH;
-            case EAST:
+            case UP:
             default:
-                return SHAPE_WEST;
+                return SHAPE_UP;
         }
     }
     public boolean canSurvive(BlockState p_58073_, LevelReader p_58074_, BlockPos p_58075_) {
